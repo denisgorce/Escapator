@@ -1,0 +1,8 @@
+{
+  "appId": "com.escapator.app",
+  "appName": "Escapator",
+  "webDir": "docs",
+  "android": {
+    "backgroundColor": "#101923"
+  }
+}
