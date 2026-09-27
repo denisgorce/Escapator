@@ -1,6 +1,6 @@
 # Escapator
 
-Escape game pour smartphone Android : 4 missions, 12 épisodes, 40 verrous mêlant capteurs du téléphone et énigmes classiques, avec Oki, le guide renard-lynx. Interface FR / EN / RU (mots à trouver en français), jeu solo ou en équipe de 2 à 6.
+Escape game pour smartphone Android : 4 missions, 12 épisodes, 40 verrous mêlant capteurs du téléphone et énigmes classiques, avec Oki, le guide renard-lynx. Interface FR / EN / RU (mots à trouver en français), jeu solo ou en équipe de 2 à 6 joueurs.
 
 ![Icône](captures/icone.png)
 
