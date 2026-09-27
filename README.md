@@ -1,6 +1,6 @@
 # Escapator
 
-Escape game pour smartphone Android : 4 missions, 12 épisodes, 40 verrous mêlant capteurs du téléphone et énigmes classiques, avec Oki, le guide renard-lynx. Interface FR / EN / RU (mots à trouver en français), jeu solo ou en équipe de 2 à 6 joueurs.
+Escape game pour smartphone Android : 4 missions, 12 épisodes, 40 verrous mêlant capteurs du téléphone et énigmes classiques, avec Oki, le guide renard-lynx. Interface FR / EN / RU (mots à trouver en français), jeu solo ou en équipe de 2 à 6.
 
 ![Icône](captures/icone.png)
 
@@ -26,7 +26,8 @@ escapator/
 ## Mise en ligne
 1. Créer un dépôt GitHub et y déposer le contenu du dossier `escapator/`.
 2. **Version web** : Settings > Pages > Deploy from branch > `main` / `/docs`. Ouvrir `https://<compte>.github.io/<depot>/` sur le téléphone (HTTPS requis pour les capteurs), puis « Ajouter à l'écran d'accueil ».
-3. **Application Android** : chaque push lance l'onglet Actions ; l'APK est dans l'artefact `escapator-apk`. Un tag `v1.0.0` le publie dans une Release. Installer l'APK en autorisant les sources inconnues.
+3. **Application Android** : chaque push sur `main` (ou `master`) compile l'APK dans l'onglet **Actions** (environ 5 min). Il est ensuite téléchargeable dans **Releases > Escapator (dernière version) > escapator.apk**. Un tag `v1.0.0` crée en plus une version numérotée. Installer en autorisant les sources inconnues.
+   - Le dossier caché `.github/` doit être présent dans le dépôt : sans lui, aucune compilation n'est lancée. En dépôt par glisser-déposer, il est souvent ignoré ; le créer alors via *Add file > Create new file* avec le chemin `.github/workflows/android.yml`.
 
 Build local (JDK 21, Android SDK) : `npm install`, `npm run android:init`, `npm run android:build`.
 

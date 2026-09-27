@@ -6,15 +6,12 @@
   "scripts": {
     "android:init": "npx cap add android && node native/patch-manifest.js && npm run android:native && npm run android:icons",
     "android:native": "cp native/SensorsPlugin.java native/MainActivity.java android/app/src/main/java/com/escapator/app/",
-    "android:icons": "npx @capacitor/assets generate --android --iconBackgroundColor '#101923' --splashBackgroundColor '#101923'",
+    "android:icons": "npx --yes @capacitor/assets@3 generate --android --iconBackgroundColor '#101923' --splashBackgroundColor '#101923'",
     "android:build": "npx cap sync android && cd android && ./gradlew assembleDebug"
   },
   "dependencies": {
     "@capacitor/android": "^8.0.0",
     "@capacitor/cli": "^8.0.0",
     "@capacitor/core": "^8.0.0"
-  },
-  "devDependencies": {
-    "@capacitor/assets": "^3.0.5"
   }
 }
