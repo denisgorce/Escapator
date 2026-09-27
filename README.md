@@ -62,7 +62,11 @@ Rôles 📱 Pilote, 🧠 Décodeur, 🗒️ Archiviste, 👂 Observateur, ⏱️
 | Lampe torche / NFC | Natif | Flash de l'écran / Web NFC (tags NDEF) |
 | Voix d'Oki | TTS Android | Web Speech |
 
-Capteur absent : le verrou peut être forcé contre 5 minutes.
+Aides en jeu :
+- **❔ Comment jouer** : règle détaillée de chaque verrou (dépliée à la première ouverture).
+- **Appeler Oki (-2:00)** : un indice.
+- **Voir la solution (-5:00)** : réponse expliquée (grille, code, message déchiffré…) puis ouverture du verrou ; au verrou maître, le mot et le code sont saisis automatiquement.
+- Capteur absent : le verrou peut être forcé contre 5 minutes.
 
 ## Écran, batterie, animations
 - Écran maintenu allumé uniquement pendant une mission.
